@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-OrangeHRM_-_Admin">
+              <span class="suite-name border-failed">OrangeHRM - Admin</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-OrangeHRM_-_Admin">
+                    <span>F:\Automation\031 - Hybric Framework\resources\runOrangeHRMTestcases.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-OrangeHRM_-_Admin">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-OrangeHRM_-_Admin">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-OrangeHRM_-_Admin">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-OrangeHRM_-_Admin">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-OrangeHRM_-_Admin">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-OrangeHRM_-_Admin">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 2 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-OrangeHRM_-_Admin" class="hide-methods failed suite-OrangeHRM_-_Admin"> (hide)</a> <!-- hide-methods failed suite-OrangeHRM_-_Admin -->
+                      <a href="#" panel-name="suite-OrangeHRM_-_Admin" class="show-methods failed suite-OrangeHRM_-_Admin"> (show)</a> <!-- show-methods failed suite-OrangeHRM_-_Admin -->
+                    </span>
+                    <div class="method-list-content failed suite-OrangeHRM_-_Admin">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRM_-_Admin" title="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" hash-for-method="Employee_01_Add_Employee">Employee_01_Add_Employee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRM_-_Admin" title="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" hash-for-method="Employee_03_Edit_Employee_By_Personal">Employee_03_Edit_Employee_By_Personal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-OrangeHRM_-_Admin -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-OrangeHRM_-_Admin" class="hide-methods passed suite-OrangeHRM_-_Admin"> (hide)</a> <!-- hide-methods passed suite-OrangeHRM_-_Admin -->
+                      <a href="#" panel-name="suite-OrangeHRM_-_Admin" class="show-methods passed suite-OrangeHRM_-_Admin"> (show)</a> <!-- show-methods passed suite-OrangeHRM_-_Admin -->
+                    </span>
+                    <div class="method-list-content passed suite-OrangeHRM_-_Admin">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRM_-_Admin" title="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" hash-for-method="Employee_02_Search_Employee">Employee_02_Search_Employee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRM_-_Admin" title="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" hash-for-method="Employee_04_Edit_Employee_By_Contact">Employee_04_Edit_Employee_By_Contact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRM_-_Admin" title="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" hash-for-method="Employee_05_Edit_Employee_By_Job">Employee_05_Edit_Employee_By_Job</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRM_-_Admin" title="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" hash-for-method="Employee_06_Edit_Employee_By_Salary">Employee_06_Edit_Employee_By_Salary</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRM_-_Admin" title="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" hash-for-method="Employee_07_Add_User_To_Employee">Employee_07_Add_User_To_Employee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRM_-_Admin" title="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" hash-for-method="Employee_08_Search_User">Employee_08_Search_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRM_-_Admin" title="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" hash-for-method="Employee_09_Delete_User">Employee_09_Delete_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRM_-_Admin" title="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" hash-for-method="Employee_10_Delete_Employee">Employee_10_Delete_Employee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-OrangeHRM_-_Admin -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OrangeHRM_-_Admin" class="panel OrangeHRM_-_Admin">
+          <div class="suite-OrangeHRM_-_Admin-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_01_Add_Employee">
+                  </a> <!-- Employee_01_Add_Employee -->
+                  <span class="method-name">Employee_01_Add_Employee</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[text()=&apos;PIM&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at commons.BasePage.waitForElementClickable(BasePage.java:412)
+	at commons.BasePage.openMenuPageByName(BasePage.java:440)
+	at com.orangehrm.employee.Employee_01_Add_Edit_Employee_User.Employee_01_Add_Employee(Employee_01_Add_Edit_Employee_User.java:58)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//span[text()=&apos;PIM&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-KFK5AMQ&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 28 more
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_03_Edit_Employee_By_Personal">
+                  </a> <!-- Employee_03_Edit_Employee_By_Personal -->
+                  <span class="method-name">Employee_03_Edit_Employee_By_Personal</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.orangehrm.employee.Employee_01_Add_Edit_Employee_User.Employee_03_Edit_Employee_By_Personal(Employee_01_Add_Edit_Employee_User.java:89)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_-_Admin-class-failed -->
+          <div class="suite-OrangeHRM_-_Admin-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_02_Search_Employee">
+                  </a> <!-- Employee_02_Search_Employee -->
+                  <span class="method-name">Employee_02_Search_Employee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_04_Edit_Employee_By_Contact">
+                  </a> <!-- Employee_04_Edit_Employee_By_Contact -->
+                  <span class="method-name">Employee_04_Edit_Employee_By_Contact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_05_Edit_Employee_By_Job">
+                  </a> <!-- Employee_05_Edit_Employee_By_Job -->
+                  <span class="method-name">Employee_05_Edit_Employee_By_Job</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_06_Edit_Employee_By_Salary">
+                  </a> <!-- Employee_06_Edit_Employee_By_Salary -->
+                  <span class="method-name">Employee_06_Edit_Employee_By_Salary</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_07_Add_User_To_Employee">
+                  </a> <!-- Employee_07_Add_User_To_Employee -->
+                  <span class="method-name">Employee_07_Add_User_To_Employee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_08_Search_User">
+                  </a> <!-- Employee_08_Search_User -->
+                  <span class="method-name">Employee_08_Search_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_09_Delete_User">
+                  </a> <!-- Employee_09_Delete_User -->
+                  <span class="method-name">Employee_09_Delete_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_10_Delete_Employee">
+                  </a> <!-- Employee_10_Delete_Employee -->
+                  <span class="method-name">Employee_10_Delete_Employee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_-_Admin-class-passed -->
+        </div> <!-- panel OrangeHRM_-_Admin -->
+        <div panel-name="test-xml-OrangeHRM_-_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Automation\031 - Hybric Framework\resources\runOrangeHRMTestcases.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;OrangeHRM - Admin&quot;&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://opensource-demo.orangehrmlive.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;commons.MethodListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;run on CHROME&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.orangehrm.employee.Employee_01_Add_Edit_Employee_User&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- run on CHROME --&gt;
+&lt;/suite&gt; &lt;!-- OrangeHRM - Admin --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OrangeHRM_-_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OrangeHRM - Admin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">run on CHROME (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OrangeHRM_-_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OrangeHRM - Admin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OrangeHRM_-_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OrangeHRM - Admin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OrangeHRM_-_Admin');
+function tableData_OrangeHRM_-_Admin() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Employee_01_Add_Employee')
+data.setCell(0, 2, 'com.orangehrm.employee.Employee_01_Add_Edit_Employee_User')
+data.setCell(0, 3, 31513);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Employee_03_Edit_Employee_By_Personal')
+data.setCell(1, 2, 'com.orangehrm.employee.Employee_01_Add_Edit_Employee_User')
+data.setCell(1, 3, 12);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Employee_02_Search_Employee')
+data.setCell(2, 2, 'com.orangehrm.employee.Employee_01_Add_Edit_Employee_User')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Employee_07_Add_User_To_Employee')
+data.setCell(3, 2, 'com.orangehrm.employee.Employee_01_Add_Edit_Employee_User')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Employee_08_Search_User')
+data.setCell(4, 2, 'com.orangehrm.employee.Employee_01_Add_Edit_Employee_User')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Employee_09_Delete_User')
+data.setCell(5, 2, 'com.orangehrm.employee.Employee_01_Add_Edit_Employee_User')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Employee_04_Edit_Employee_By_Contact')
+data.setCell(6, 2, 'com.orangehrm.employee.Employee_01_Add_Edit_Employee_User')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Employee_05_Edit_Employee_By_Job')
+data.setCell(7, 2, 'com.orangehrm.employee.Employee_01_Add_Edit_Employee_User')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Employee_06_Edit_Employee_By_Salary')
+data.setCell(8, 2, 'com.orangehrm.employee.Employee_01_Add_Edit_Employee_User')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Employee_10_Delete_Employee')
+data.setCell(9, 2, 'com.orangehrm.employee.Employee_01_Add_Edit_Employee_User')
+data.setCell(9, 3, 0);
+window.suiteTableData['OrangeHRM_-_Admin']= { tableData: data, tableDiv: 'times-div-OrangeHRM_-_Admin'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <div id="times-div-OrangeHRM_-_Admin">
+              </div> <!-- times-div-OrangeHRM_-_Admin -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OrangeHRM_-_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OrangeHRM - Admin</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Employee_03_Edit_Employee_By_Personal</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2023-03-07 19:53:45,685] Edit Employee - Step 01: Enter to 'First Name' textbox with new value: Selenium98987
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Employee_01_Add_Employee</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2023-03-07 19:53:14,178] Add Employee - Step 01: Click to PIM link
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OrangeHRM_-_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OrangeHRM_-_Admin" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome, https://opensource-demo.orangehrmlive.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Employee_01_Add_Employee</span>
+                <span class="method-start">15594 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_02_Search_Employee</span>
+                <span class="method-start">47107 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Employee_03_Edit_Employee_By_Personal</span>
+                <span class="method-start">47107 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_04_Edit_Employee_By_Contact</span>
+                <span class="method-start">47121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_05_Edit_Employee_By_Job</span>
+                <span class="method-start">47121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_06_Edit_Employee_By_Salary</span>
+                <span class="method-start">47121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_07_Add_User_To_Employee</span>
+                <span class="method-start">47121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_08_Search_User</span>
+                <span class="method-start">47121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_09_Delete_User</span>
+                <span class="method-start">47121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_10_Delete_Employee</span>
+                <span class="method-start">47137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">47137 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

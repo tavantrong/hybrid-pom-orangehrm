@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">OrangeHRM - Admin</th></tr>
+<tr><td><a href="#t0">run on CHROME</a></td><td class="num">8</td><td class="num">0</td><td class="num attn">2</td><td class="num">47,281</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">OrangeHRM - Admin</th></tr></tbody><tbody id="t0"><tr><th colspan="4">run on CHROME &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User</td><td><a href="#m0">Employee_01_Add_Employee</a></td><td rowspan="1">1678193594172</td><td rowspan="1">31513</td></tr><tr class="failedeven"><td><a href="#m1">Employee_03_Edit_Employee_By_Personal</a></td><td rowspan="1">1678193625685</td><td rowspan="1">12</td></tr><tr><th colspan="4">run on CHROME &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User</td><td><a href="#m2">Employee_02_Search_Employee</a></td><td rowspan="1">1678193625685</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m3">Employee_04_Edit_Employee_By_Contact</a></td><td rowspan="1">1678193625699</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m4">Employee_05_Edit_Employee_By_Job</a></td><td rowspan="1">1678193625699</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m5">Employee_06_Edit_Employee_By_Salary</a></td><td rowspan="1">1678193625699</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m6">Employee_07_Add_User_To_Employee</a></td><td rowspan="1">1678193625699</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m7">Employee_08_Search_User</a></td><td rowspan="1">1678193625699</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m8">Employee_09_Delete_User</a></td><td rowspan="1">1678193625699</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m9">Employee_10_Delete_Employee</a></td><td rowspan="1">1678193625715</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>run on CHROME</h2><h3 id="m0">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User#Employee_01_Add_Employee</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2023-03-07 19:53:14,178] Add Employee - Step 01: Click to PIM link
+<br></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[text()=&apos;PIM&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at commons.BasePage.waitForElementClickable(BasePage.java:412)
+	at commons.BasePage.openMenuPageByName(BasePage.java:440)
+	at com.orangehrm.employee.Employee_01_Add_Edit_Employee_User.Employee_01_Add_Employee(Employee_01_Add_Edit_Employee_User.java:58)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//span[text()=&apos;PIM&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-KFK5AMQ&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 28 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User#Employee_03_Edit_Employee_By_Personal</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2023-03-07 19:53:45,685] Edit Employee - Step 01: Enter to 'First Name' textbox with new value: Selenium98987
+<br></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.orangehrm.employee.Employee_01_Add_Edit_Employee_User.Employee_03_Edit_Employee_By_Personal(Employee_01_Add_Edit_Employee_User.java:89)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User#Employee_02_Search_Employee</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User#Employee_04_Edit_Employee_By_Contact</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User#Employee_05_Edit_Employee_By_Job</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User#Employee_06_Edit_Employee_By_Salary</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User#Employee_07_Add_User_To_Employee</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User#Employee_08_Search_User</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User#Employee_09_Delete_User</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User#Employee_10_Delete_Employee</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

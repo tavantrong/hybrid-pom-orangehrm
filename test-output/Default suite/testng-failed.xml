@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User">
+        <methods>
+          <include name="Employee_04_Edit_Employee_By_Contact"/>
+          <include name="Employee_08_Search_User"/>
+          <include name="Employee_05_Edit_Employee_By_Job"/>
+          <include name="Employee_03_Edit_Employee_By_Personal"/>
+          <include name="Employee_02_Search_Employee"/>
+          <include name="Employee_07_Add_User_To_Employee"/>
+          <include name="afterClass"/>
+          <include name="Employee_01_Add_Employee"/>
+          <include name="Employee_10_Delete_Employee"/>
+          <include name="beforeClass"/>
+          <include name="Employee_09_Delete_User"/>
+          <include name="Employee_06_Edit_Employee_By_Salary"/>
+        </methods>
+      </class> <!-- com.orangehrm.employee.Employee_01_Add_Edit_Employee_User -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
